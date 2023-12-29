@@ -1,4 +1,6 @@
-require ( './helpers.js' );
+let employee = {};
+
+require('./helpers.js');
 
 describe('employees', function() {
   describe('updateEmployeeWithKeyAndValue(employee, key, value)', function () {
